@@ -3,7 +3,7 @@ import json
 from metrics_and_plots import save_metrics, save_predictions, save_roc_curve
 from model import evaluate_model, train_model
 from sklearn.model_selection import train_test_split
-from utils_and_constants import PROCESSED_DATASET, load_data, load_hyperparameters
+from utils import PROCESSED_DATASET, load_data, load_hyperparameters
 
 
 def main():

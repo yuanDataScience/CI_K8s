@@ -3,7 +3,7 @@ import json
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV, train_test_split
-from utils_and_constants import PROCESSED_DATASET, get_hp_tuning_results, load_data
+from utils import PROCESSED_DATASET, get_hp_tuning_results, load_data
 
 
 def main():
